@@ -95,7 +95,7 @@ function loadConnectedPage(){
 		let g = color.rgb.g;
 		let b = color.rgb.b;
 		try{
-			await bolt.setAllLeds(r, g, b);
+			await bolt.setMainLedColor(r, g, b);
 		}
 		catch(error){
 			console.log(error.message);
