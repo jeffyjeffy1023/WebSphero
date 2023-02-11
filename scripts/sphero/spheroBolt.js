@@ -13,7 +13,7 @@ class SpheroBolt{
 		try{
 			this.device = await navigator.bluetooth.requestDevice({
 				filters: [{
-					namePrefix: 'SB-',				
+					namePrefix: '2B-',				
 					services: [UUID_SPHERO_SERVICE],
 				}],
 				optionalServices : [UUID_SPHERO_SERVICE_INITIALIZE],
